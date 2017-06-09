@@ -1,0 +1,26 @@
+{
+  "private": true,
+  "name": "sonidobragueta.com",
+  "version": "1.0.0",
+  "description": "Sonido Bragueta",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "next": {
+    "alias": "sonidobragueta.com"
+  },
+  "author": "<espinosacurbelo@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.1",
+    "next": "3.0.0-beta11",
+    "random-item": "^1.0.0",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-icons": "^2.2.5",
+    "styled-components": "^2.0.1"
+  }
+}
