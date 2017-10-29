@@ -34,18 +34,18 @@ const CastPicture = styled.img`
 `
 
 const CastTitle = styled.h2`
-  color: #ce137a;
-  font-size: 2rem;
-  font-weight: 100;
+  color: #464646;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  font-smoothing: antialiased;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  margin-top: 0;
   margin: 0.5em 0;
   padding: 0;
-  margin-top: 0;
-  font-family: 'Barrio', cursive;
   text-align: left;
-  text-shadow: 1px 1px #524e51,
-               2px 2px #524e51,
-               3px 3px #524e51,
-               4px 4px #524e51;
+  text-rendering: optimizeLegibility;
+  text-transform: uppercase;
 `
 
 const CastContent = styled.div`
