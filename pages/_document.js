@@ -30,7 +30,7 @@ export default class MyDocument extends Document {
     return (
       <html>
         <Head>
-          <meta charset="utf-8" />
+          <meta charSet="utf-8" />
           <title>Sonido Bragueta</title>
           <meta
             name="viewport"

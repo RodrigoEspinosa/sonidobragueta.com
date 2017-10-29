@@ -5,9 +5,9 @@
   "description": "Sonido Bragueta",
   "main": "index.js",
   "scripts": {
-    "dev": "next",
-    "build": "next build",
-    "start": "next start"
+    "dev": "lookenv next dev",
+    "build": "lookenv next build",
+    "start": "lookenv next start"
   },
   "next": {
     "alias": "sonidobragueta.com"
@@ -16,8 +16,8 @@
   "license": "MIT",
   "dependencies": {
     "isomorphic-fetch": "^2.2.1",
+    "lookenv": "^0.3.3",
     "next": "^4.1.3",
-    "random-item": "^1.0.0",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
     "react-icons": "^2.2.7",

@@ -7,10 +7,6 @@ import PageTitle from '../components/PageTitle'
 import CastGallery from '../components/CastGallery'
 import PageSubtitle from '../components/PageSubtitle'
 
-const MIXCLOUD_BASE_URL = 'https://api.mixcloud.com'
-const MIXCLOUD_USERNAME = 'sonidobragueta'
-const MIXCLOUD_CLOUDCASTS_URL = `${MIXCLOUD_BASE_URL}/${MIXCLOUD_USERNAME}/cloudcasts`
-
 class IndexPage extends React.Component {
 
   static defaultProps = {
@@ -18,7 +14,7 @@ class IndexPage extends React.Component {
   }
 
   static async getInitialProps () {
-    const res = await fetch(MIXCLOUD_CLOUDCASTS_URL)
+    const res = await fetch(process.env.MIXCLOUD_CLOUDCASTS_URL)
     const { data: casts } = await res.json()
     return { casts }
   }
